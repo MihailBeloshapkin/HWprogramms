@@ -62,10 +62,36 @@ void quickSort(int array[], int head, int tail)
 }
 
 
-bool testRandomValues()
+bool test()
 {
-	bool isCorrect = false;
-	int size = dipRand();
+	bool isCorrect = true;
+	const int size = 5;
+	int testArray[5] = { 8, 0, 5, -9, 4 };
+	quickSort(testArray, 0, size);
+	if (!isIncluded(testArray, 0, size - 1, testArray[0], size))
+	{
+		isCorrect = false;
+	}
+	if (!isIncluded(testArray, 0, size - 1, testArray[1], size))
+	{
+		isCorrect = false;
+	}
+	if (!isIncluded(testArray, 0, size - 1, testArray[2], size))
+	{
+		isCorrect = false;
+	}
+	if (!isIncluded(testArray, 0, size - 1, testArray[3], size))
+	{
+		isCorrect = false;
+	}
+	if (!isIncluded(testArray, 0, size - 1, testArray[4], size))
+	{
+		isCorrect = false;
+	}
+	if (!isCorrect)
+	{
+		printf("Incorrect work with test array value\n");
+	}
 	return isCorrect;
 }
 
@@ -102,6 +128,10 @@ bool isIncluded(int array[], int head, int tail, int element, int size)
 
 int main()
 {
+	if (!test())
+	{
+		return -1;
+	} 
 	FILE *out;
 	fopen_s(&out, "answer.txt", "w");
 	int size = 7;
@@ -132,8 +162,8 @@ int main()
 			printf("\n%i is not included\n", element);
 		}
 	}
-	
-	
 	fclose(out);  
 	return 0;
 }
+
+
