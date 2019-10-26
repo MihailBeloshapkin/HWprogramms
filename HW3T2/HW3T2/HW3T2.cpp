@@ -131,9 +131,7 @@ int main()
 	if (!test())
 	{
 		return -1;
-	} 
-	FILE *out;
-	fopen_s(&out, "answer.txt", "w");
+	}
 	int size = 7;
 	int countOfRandNumbers = 0;
 	printf("Input n:\n");
@@ -161,8 +159,7 @@ int main()
 		{
 			printf("\n%i is not included\n", element);
 		}
-	}
-	fclose(out);  
+	} 
 	return 0;
 }
 
