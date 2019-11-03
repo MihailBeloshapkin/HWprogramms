@@ -1,0 +1,6 @@
+﻿  HW2T2.cpp
+c:\users\миша\source\repos\hw2t2\hw2t2\hw2t2.cpp(118): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  c:\users\миша\source\repos\hw2t2\hw2t2\hw2t2.cpp(118): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\миша\source\repos\hw2t2\hw2t2\hw2t2.cpp(118): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+  c:\users\миша\source\repos\hw2t2\hw2t2\hw2t2.cpp(118): note: этот аргумент используется в качестве размера буфера
+  HW2T2.vcxproj -> C:\Users\Миша\source\repos\HW2T2\Debug\HW2T2.exe

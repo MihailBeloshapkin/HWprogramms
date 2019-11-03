@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  HW2T3.cpp
+c:\users\миша\source\repos\hw2t3\hw2t3alg\hw2t3.cpp(50): warning C6385: Чтение недопустимых данных из "valueArray":  доступный для чтения объем равен "unsigned int" байт, однако считать можно только "8" байт.
+c:\users\миша\source\repos\hw2t3\hw2t3alg\hw2t3.cpp(110): warning C6385: Чтение недопустимых данных из "testValueArray2":  доступный для чтения объем равен "unsigned int" байт, однако считать можно только "8" байт.
+c:\users\миша\source\repos\hw2t3\hw2t3alg\hw2t3.cpp(166): warning C6385: Чтение недопустимых данных из "testValueArray2":  доступный для чтения объем равен "unsigned int" байт, однако считать можно только "8" байт.

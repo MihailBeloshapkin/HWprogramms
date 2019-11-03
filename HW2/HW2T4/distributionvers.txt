@@ -1,0 +1,168 @@
+//file created 13.10.2019
+
+//main variant!!!!!
+void distribution(int array[], int size)
+{
+	int supElement = array[0];
+	int indexHead = 0;
+	int indexTail = size - 1;
+	bool run = true;
+	while (run)
+	{
+		while (array[indexHead] < supElement)
+		{
+			indexHead++;
+		}
+		while (array[indexTail] > supElement)
+		{
+			indexTail--;
+		}
+		if (indexHead < indexTail)
+		{
+			const int tmp = array[indexHead];
+			array[indexHead] = array[indexTail];
+			array[indexTail] = tmp;
+		}
+		else
+		{
+			run = false;
+		}
+	}
+	
+}
+
+//others
+void distribution(int *numbers, int nose, int tail)
+{
+	int helper = 0;
+	int indexOfElement = (nose + tail) / 2;
+	int indexOfNose = nose - 1;
+	int indexOfTail = tail + 1;
+
+	if (nose >= tail)
+	{
+		return;
+	}
+	bool run = true;
+	while (run)
+	{
+		indexOfNose++;
+		while (numbers[indexOfNose] < numbers[indexOfElement])
+		{
+			indexOfNose++;
+		}
+		indexOfTail--;
+		while (numbers[indexOfTail] > numbers[indexOfElement])
+		{
+			indexOfTail--;
+		}
+
+		if (indexOfNose < indexOfTail)
+		{
+			helper = numbers[indexOfTail];
+			numbers[indexOfTail] = numbers[indexOfNose];
+			numbers[indexOfNose] = helper;
+
+			if (indexOfElement == indexOfNose)
+			{
+				indexOfElement = indexOfTail;
+				indexOfTail++;
+			}
+			else if (indexOfElement == indexOfTail)
+			{
+				indexOfElement = indexOfNose;
+				indexOfNose--;
+			}
+		}
+		else
+		{
+			run = false;
+		}
+	}
+
+	distribution(numbers, nose, indexOfElement - 1);
+	distribution(numbers, indexOfElement + 1, tail);
+}
+
+void distribution(int array[], int size)
+{
+	int indexOfHead = 0;
+	int indexOfTail = size - 1;
+	int indexSupElement = size / 2;
+	int tmp = array[0];
+	array[0] = array[indexSupElement];
+	array[indexSupElement] = tmp;
+	bool run = true;
+	while (run)
+	{
+		while (array[indexOfHead] < array[indexSupElement])
+		{
+			indexOfHead++;
+		}
+		while (array[indexOfTail] > array[indexSupElement])
+		{
+			indexOfTail--;
+		}
+		if (indexOfHead < indexOfTail)
+		{
+			const int tmp = array[indexOfHead];
+			array[indexOfHead] = array[indexOfTail];
+			array[indexOfTail] = tmp; 
+
+			if (indexSupElement == indexOfHead)
+			{
+				indexSupElement = indexOfTail;
+				indexOfTail++;
+			}
+			if (indexSupElement == indexOfTail)
+			{
+				indexSupElement = indexOfHead;
+				indexOfHead--;
+			}
+		}
+		else
+		{
+			run = 0;
+		}
+	}
+}
+
+bool testDistribution()
+{
+	bool isCorrectly = true;
+	int size = 9;
+	int testArray[] = {5, 4, 9, 0, -5, 12, 7, 11, 1};
+	int supElement = testArray[0];
+	distribution(testArray, size);
+	int index = 0;
+	int indexSupElement = 0;
+	while (testArray[index] != supElement)
+	{
+		index++;
+	}
+	indexSupElement = index;
+	for (int i = 0; i < indexSupElement; i++)
+	{
+		if (testArray[i] >= supElement)
+		{
+			isCorrectly = false;
+		}
+	}
+
+	for (int i = indexSupElement + 1; i < size; i++)
+	{
+		if (testArray[i] < supElement)
+		{
+			isCorrectly = false;
+		}
+	}
+	if (!isCorrectly)
+	{
+		for (int i = 0; i < 9; i++)
+		{
+			printf((i == 8) ? "%i\n" : "%i, ", testArray[i], testArray[i]);
+		}
+	}
+	
+	return isCorrectly;
+}

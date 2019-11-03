@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\миша\source\repos\hw2t2\hw2t2</FILEPATH>
+      <FILENAME>hw2t2.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6064</DEFECTCODE>
+    <DESCRIPTION>Пропущен целочисленный аргумент "scanf_s", соответствующий спецификатору преобразования "2".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>94</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
