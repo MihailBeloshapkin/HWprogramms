@@ -3,9 +3,15 @@
 #include "search.h"
 #include "utils.h"
 #include <stdio.h>
+#include "test.h"
 
 int main()
 {
+	if (!testSearch() || !testLoadData())
+	{
+		printf("Incorrect work\n");
+		return -1;
+	}
 	Note data[100];
 	bool run = true;
 	FILE *file = fopen("data.txt", "a+");
@@ -44,7 +50,7 @@ int main()
 			printf("Input name:\n");
 			getString(name, 30);
 			const int indexSearchNumber = searchPhone(data, name, index);
-			printf((indexSearchNumber > 0)  ? "Phone Number: %s" : "No such name in list\n", data[indexSearchNumber].phoneNumber);
+			printf((indexSearchNumber > 0)  ? "Phone Number: %s\n" : "No such name in list\n", data[indexSearchNumber].phoneNumber);
 			break;
 		}
 		case '4':
@@ -52,7 +58,7 @@ int main()
 			printf("Input phone number:\n");
 			getString(phone, 30);
 			const int indexSearchName = searchName(data, phone, index);
-			printf((indexSearchName > 0) ? "Name: %s" : "No such number in list\n", data[indexSearchName].name);
+			printf((indexSearchName > 0) ? "Name: %s\n" : "No such number in list\n", data[indexSearchName].name);
 			break;
 		}
 		case '5':
@@ -63,5 +69,6 @@ int main()
 			break;
 		}
 	}
+	getchar();
 	return 0;
 }

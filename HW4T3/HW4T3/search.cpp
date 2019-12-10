@@ -1,9 +1,9 @@
 #include "pch.h"
-#include "notebook.h"
+#include "search.h"
 #include "utils.h"
 #include <stdio.h>
 
-int searchPhone(Note *data, char *name, int size)
+int searchPhone(Note *data, const char *name, int size)
 {
 	for (int index = 0; index < size; index++)
 	{
@@ -15,7 +15,7 @@ int searchPhone(Note *data, char *name, int size)
 	return -1;
 }
 
-int searchName(Note *data, char *phone, int size)
+int searchName(Note *data, const char *phone, int size)
 {
 	for (int index = 0; index < size; index++)
 	{

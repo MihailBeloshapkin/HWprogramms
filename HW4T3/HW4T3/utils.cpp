@@ -37,10 +37,10 @@ void displayData(Note *data, int count)
 	}
 }
 
-bool isSimilar(char *string1, char *string2)
+bool isSimilar(char *string1, const char *string2)
 {
 	int index = 0;
-	while (string1[index + 1] != '\0'|| string2[index + 1] != '\0')
+	while (string1[index + 1] != '\0' || string2[index + 1] != '\0')
 	{
 		if (string1[index] != string2[index])
 		{
@@ -66,7 +66,7 @@ int loadData(Note *data, FILE *file)
 	while (!feof(file))
 	{
 		index++;
-		char symbol = 'f';
+		char symbol = '\0';
 		int i = 0;
 		while ((symbol = fgetc(file)) != '-' && !feof(file))
 		{

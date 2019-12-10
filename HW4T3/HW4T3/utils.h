@@ -1,4 +1,5 @@
 #pragma once
+#include <stdio.h>
 
 // Scan string from console.
 void getString(char *str, int maxSize);
@@ -10,7 +11,7 @@ void clearInput();
 void displayData(Note *data, int count);
 
 // Check the similarity of two strings.
-bool isSimilar(char *string1, char *string2);
+bool isSimilar(char *string1, const char *string2);
 
 // Save all content if file.
 void saveData(Note *data, int size, FILE *file);
