@@ -1,0 +1,649 @@
+00: (40); depart(1); aspect(1); 
+01: mental(1); termed(1); beyond(1); 
+02: 
+03: 
+04: viewed(1); 
+05: modern(1); stated(1); 
+06: learnt(1); rather(1); 
+07: applications(1); 
+08: origin(1); school(1); 
+09: number(3); 
+10: simple(1); incorporated(1); 
+11: 
+12: implications(1); remote(1); consequences(1); 
+13: taught(1); abstractions(1); 
+14: merely(1); 
+15: wonder(1); collectively(1); should(1); 
+16: answer(2); values(1); almost(2); proved(2); 
+17: axioms(7); 
+18: relationship(1); 
+19: follow(2); 
+20: amount(1); 
+21: verify(1); 
+22: developments(2); 
+23: unique(1); notion(1); 
+24: 
+25: 
+26: 
+27: growth(1); 
+28: 
+29: points(1); 
+30: distributive(1); 
+31: connotations(1); wholly(1); quantitative(1); 
+32: 
+33: purely(1); 
+34: introduction(1); 
+35: 
+36: 
+37: system(1); 
+38: 
+39: interrelationships(1); 
+40: 
+41: 
+42: counterparts(1); truths(2); 
+43: 
+44: 
+45: 
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: 
+55: 
+56: Because(1); 
+57: 
+58: 
+59: 
+60: 
+61: 
+62: 
+63: 
+64: 
+65: 
+66: 
+67: 
+68: 
+69: 
+70: 
+71: 
+72: 
+73: 
+74: 
+75: 
+76: 
+77: 
+78: algebra(3); deduced(2); 
+79: defined(1); 
+80: 
+81: 
+82: 
+83: 
+84: 
+85: mathematician(1); 
+86: 
+87: 
+88: because(1); bearing(1); created(1); 
+89: 
+90: science(1); enables(1); 
+91: logical(1); 
+92: 
+93: 
+94: general(1); becomes(1); 
+95: applied(1); 
+96: gradual(1); 
+97: a(4); 
+98: ancient(2); already(2); 
+99: organic(1); 
+100: implied(1); earlier(1); 
+101: 
+102: certain(2); essence(1); 
+103: 
+104: 
+105: 
+106: between(1); objects(1); 
+107: members(1); domains(1); 
+108: concept(1); 
+109: 
+110: 
+111: evident(1); 
+112: 
+113: another(1); 
+114: regular(1); largest(1); several(1); 
+115: perhaps(1); s(2); 
+116: theorem(1); 
+117: rapidly(1); 
+118: phrases(1); existed(1); respect(1); 
+119: 
+120: 
+121: 
+122: 
+123: 
+124: numbers(2); 
+125: 
+126: 
+127: 
+128: however(1); 
+129: working(1); 
+130: 
+131: current(2); distinguishes(1); 
+132: 
+133: relationships(1); 
+134: 
+135: obvious(1); invents(1); 
+136: 
+137: various(2); totally(1); 
+138: notions(1); century(1); 
+139: 
+140: 
+141: 
+142: 
+143: 
+144: 
+145: 
+146: results(2); 
+147: 
+148: without(1); 
+149: 
+150: 
+151: 
+152: systems(1); 
+153: 
+154: 
+155: 
+156: 
+157: 
+158: 
+159: 
+160: 
+161: 
+162: 
+163: 
+164: 
+165: 
+166: 
+167: 
+168: Mathematicians(1); 
+169: 
+170: 
+171: 
+172: 
+173: 
+174: 
+175: If(1); 
+176: 
+177: 
+178: 
+179: Do(1); 
+180: As(1); 
+181: 
+182: advanced(1); 
+183: In(1); 
+184: 
+185: 
+186: 
+187: 
+188: We(1); 
+189: 
+190: regarded(1); 
+191: changing(1); 
+192: 
+193: algebras(1); 
+194: detected(1); 
+195: 
+196: 
+197: Up(1); 
+198: branches(1); variable(1); specific(1); 
+199: be(4); 
+200: mathematicians(4); 
+201: 
+202: additive(1); 
+203: practice(1); 
+204: addition(1); 
+205: parallel(1); 
+206: acquired(1); 
+207: an(1); 
+208: learning(1); divorced(1); 
+209: 
+210: meanings(1); 
+211: negative(1); 
+212: as(6); 
+213: of(16); isolated(1); at(1); creation(3); original(1); 
+214: triangle(1); produced(1); 
+215: in(7); 
+216: 
+217: 
+218: Students(1); 
+219: by(4); intimate(1); 
+220: is(7); calculus(2); we(1); 
+221: it(1); no(3); on(2); physical(3); 
+222: 
+223: contains(1); concepts(3); discover(1); 
+224: 
+225: or(2); integers(1); possible(2); 
+226: so(1); 
+227: to(5); subjects(2); explored(1); 
+228: 
+229: up(1); 
+230: function(1); nowadays(2); province(1); 
+231: theorems(8); involved(1); 
+232: ordinary(1); 
+233: 
+234: 
+235: auditors(1); 
+236: geometry(2); entirely(2); 
+237: activity(1); 
+238: etymologically(1); multiplication(1); 
+239: 
+240: 
+241: universe(1); 
+242: contrary(1); 
+243: 
+244: 
+245: compartmentalization(1); 
+246: consists(1); 
+247: 
+248: question(2); 
+249: XIX(1); 
+250: students(1); 
+251: 
+252: 
+253: 
+254: 
+255: 
+256: 
+257: 
+258: 
+259: 
+260: 
+261: 
+262: 
+263: 
+264: 
+265: 
+266: 
+267: 
+268: 
+269: 
+270: 
+271: 
+272: 
+273: 
+274: 
+275: 
+276: 
+277: 
+278: 
+279: 
+280: 
+281: 
+282: 
+283: 
+284: Man(1); 
+285: 
+286: 
+287: 
+288: Knowledge(1); 
+289: The(3); 
+290: 
+291: 
+292: 
+293: 
+294: 
+295: 
+296: 
+297: 
+298: according(1); 
+299: But(1); 
+300: 
+301: had(1); 
+302: 
+303: immediate(1); 
+304: 
+305: 
+306: can(2); 
+307: and(12); 
+308: 
+309: 
+310: 
+311: 
+312: are(8); 
+313: all(1); variables(1); 
+314: difficult(1); 
+315: phenomena(1); objective(2); 
+316: has(1); etc(1); man(4); 
+317: determine(1); see(1); deductive(1); 
+318: due(1); 
+319: old(1); 
+320: knowledge(2); logically(1); 
+321: the(20); 
+322: one(2); 
+323: 
+324: 
+325: 
+326: reasoning(1); 
+327: may(2); for(1); 
+328: essential(1); any(1); creations(2); 
+329: fractions(1); 
+330: new(3); 
+331: was(2); but(1); 
+332: set(1); 
+333: necessary(1); 
+334: something(1); 
+335: generalizations(1); 
+336: its(2); 
+337: not(1); way(2); 
+338: 
+339: component(1); 
+340: now(2); 
+341: 
+342: 
+343: necessity(1); 
+344: divisions(1); discovery(1); represent(1); 
+345: functions(2); equations(2); provinces(1); 
+346: two(1); 
+347: 
+348: 
+349: 
+350: important(1); 
+351: 
+352: 
+353: 
+354: 
+355: 
+356: 
+357: 
+358: 
+359: 
+360: 
+361: 
+362: 
+363: 
+364: 
+365: 
+366: 
+367: 
+368: solutions(1); 
+369: Each(1); structure(1); 
+370: 
+371: 
+372: 
+373: 
+374: 
+375: 
+376: 
+377: 
+378: 
+379: 
+380: 
+381: 
+382: 
+383: 
+384: 
+385: 
+386: 
+387: 
+388: 
+389: 
+390: 
+391: 
+392: 
+393: 
+394: Arithmetic(1); 
+395: celebrated(1); 
+396: 
+397: Much(1); 
+398: 
+399: 
+400: 
+401: incredible(1); each(1); 
+402: 
+403: 
+404: What(1); Some(2); From(1); 
+405: Irrational(1); 
+406: 
+407: 
+408: This(1); 
+409: acquirable(1); 
+410: 
+411: incidental(1); 
+412: 
+413: abstracted(1); 
+414: 
+415: 
+416: considered(1); 
+417: scientific(1); 
+418: 
+419: 
+420: discipline(1); real(1); have(2); 
+421: main(1); like(1); 
+422: same(1); 
+423: 
+424: neat(1); line(1); experience(2); mind(2); 
+425: help(1); mere(1); 
+426: self(1); 
+427: seen(1); than(1); give(1); 
+428: collection(1); 
+429: both(1); much(1); 
+430: them(1); even(2); 
+431: time(1); also(1); 
+432: 
+433: that(5); introduced(1); specialist(1); 
+434: importance(1); role(1); 
+435: were(2); more(1); such(2); full(1); rise(1); 
+436: from(3); what(2); geometries(2); some(4); 
+437: irrational(1); many(1); 
+438: equalities(1); 
+439: part(1); less(1); 
+440: term(1); this(2); down(1); understand(1); 
+441: 
+442: they(3); into(1); separately(1); 
+443: unpleasant(1); view(3); 
+444: word(1); with(2); step(1); pure(1); 
+445: disclosure(1); 
+446: 
+447: grow(1); know(1); sets(2); sure(1); 
+448: 
+449: consisting(1); 
+450: only(1); 
+451: most(1); 
+452: standpoint(1); operations(1); 
+453: 
+454: components(1); very(1); 
+455: understood(1); explicitly(1); 
+456: 
+457: must(2); illustrate(1); 
+458: 
+459: represents(1); 
+460: 
+461: properties(2); 
+462: 
+463: constantly(1); 
+464: 
+465: 
+466: constitute(1); 
+467: 
+468: 
+469: 
+470: 
+471: 
+472: 
+473: 
+474: 
+475: 
+476: 
+477: 
+478: 
+479: 
+480: 
+481: 
+482: 
+483: Hence(2); noteworthy(1); 
+484: 
+485: 
+486: 
+487: 
+488: 
+489: 
+490: 
+491: 
+492: 
+493: 
+494: Greek(1); 
+495: Accordingly(1); 
+496: Mathematics(2); 
+497: 
+498: 
+499: 
+500: 
+501: 
+502: 
+503: 
+504: There(2); 
+505: These(1); 
+506: 
+507: 
+508: 
+509: 
+510: 
+511: 
+512: 
+513: 
+514: Pythagorean(1); basic(1); 
+515: 
+516: field(1); 
+517: named(1); break(1); 
+518: inseparable(1); ideas(1); claim(1); 
+519: 
+520: established(1); 
+521: 
+522: 
+523: 
+524: areas(1); geometrical(1); 
+525: specialized(1); 
+526: 
+527: fundamental(1); 
+528: mathematics(4); 
+529: facts(2); 
+530: among(1); 
+531: which(2); taken(1); compensated(1); 
+532: means(1); finds(1); names(1); 
+533: 
+534: class(1); older(1); 
+535: comes(1); 
+536: equal(1); later(1); 
+537: these(1); human(4); least(1); given(1); major(1); 
+538: holds(1); 
+539: where(1); associative(1); about(2); 
+540: order(1); their(1); drawn(1); 
+541: 
+542: sense(1); right(1); 
+543: whole(1); 
+544: built(1); 
+545: 
+546: other(1); deductively(1); times(1); 
+547: forth(1); development(1); investigate(1); 
+548: contraction(1); 
+549: conceptions(1); 
+550: loses(1); information(1); 
+551: forms(1); ought(1); 
+552: still(1); world(4); 
+553: 
+554: point(2); compartment(1); 
+555: terms(1); every(1); 
+556: observation(1); prior(1); 
+557: exist(1); 
+558: commutative(1); temperature(1); 
+559: 
+560: 
+561: 
+562: 
+563: 
+564: 
+565: types(2); 
+566: 
+567: 
+568: 
+569: study(1); progressive(1); 
+570: 
+571: 
+572: 
+573: 
+574: 
+575: 
+576: 
+577: 
+578: 
+579: 
+580: 
+581: 
+582: 
+583: 
+584: 
+585: Indeed(1); 
+586: Mathematical(1); 
+587: Greece(1); 
+588: 
+589: 
+590: 
+591: 
+592: 
+593: 
+594: 
+595: 
+596: 
+597: 
+598: 
+599: 
+600: 
+601: 
+602: 
+603: 
+604: 
+605: 
+606: 
+607: 
+608: 
+609: 
+610: 
+611: significance(1); 
+612: 
+613: called(1); 
+614: change(1); 
+615: 
+616: 
+617: 
+618: mathematical(1); 
+619: become(1); 
+620: 
+621: differential(2); 
+622: branch(1); 
+623: 
+624: 
+625: Axioms(2); 
+626: 
+627: 
+628: create(1); 
+629: 
+630: 
+631: fields(1); 
+632: begins(1); Nevertheless(1); disagreement(1); 
+633: 
+634: angles(1); design(1); 
+635: Growth(1); 
+636: second(1); 
+637: larger(1); 
+638: 
+639: played(1); 
+
+
+Hash table size: 640
+
+Fill coef: 0.667188
+
+
+
+
