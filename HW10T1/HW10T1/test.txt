@@ -1,0 +1,1 @@
+This file does not contain any valuable information. It exists only for testing hash table and hash function
