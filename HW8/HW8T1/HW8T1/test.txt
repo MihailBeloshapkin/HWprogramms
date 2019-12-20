@@ -1,0 +1,11 @@
+10 -> stack
+5 -> queue
+20 -> tree
+30 -> list
+40 -> data
+35 -> graph
+45 -> pointer
+47 -> variable
+43 -> cycle
+33 -> nullpointer
+37 -> exception

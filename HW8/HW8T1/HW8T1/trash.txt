@@ -1,0 +1,126 @@
+void deleteElement(Tree **tree, int key)
+{
+	Tree *keyElement = nullptr;
+	Tree *prevElement = nullptr;
+	Tree *oldData = nullptr;
+
+	if ((*tree)->key == key)
+	{
+		deleteVertex(tree);
+		return;
+	}
+	while ((*tree)->less != nullptr || (*tree)->more != nullptr)  // Cycle for searching key element.
+	{
+		if ((*tree)->key == key)
+		{
+			keyElement = *tree;
+			break;
+		}
+		if ((*tree)->less != nullptr && (*tree)->less->key == key)
+		{
+			keyElement = (*tree)->less;
+			break;
+		}
+		if ((*tree)->more != nullptr && (*tree)->more->key == key)
+		{
+			keyElement = (*tree)->more;
+			break;
+		}
+		if (key > (*tree)->key)
+		{
+			prevElement = *tree;
+			tree = &(*tree)->more;
+		}
+		else if (key < (*tree)->key)
+		{
+			prevElement = *tree;
+			tree = &(*tree)->less;
+		}
+	}
+
+	if (checkThatLeaf(keyElement))
+	{
+		if ((*tree)->less == keyElement)
+		{
+			(*tree)->less = nullptr;
+			delete keyElement;
+			return;
+		}
+		if ((*tree)->more == keyElement)
+		{
+			(*tree)->more = nullptr;
+			delete keyElement;
+			return;
+		}
+	}
+
+	if (keyElement->more == nullptr)
+	{
+		if (keyElement == (*tree)->less)
+		{
+			(*tree)->less = (*tree)->less->less;
+		}
+		if (keyElement == (*tree)->more)
+		{
+			(*tree)->more = (*tree)->more->less;
+		}
+		delete keyElement;
+		return;
+	}
+	if (keyElement->less == nullptr)
+	{
+		if (keyElement == (*tree)->less)
+		{
+			(*tree)->less = (*tree)->less->more;
+		}
+		if (keyElement == (*tree)->more)
+		{
+			(*tree)->more = (*tree)->more->more;
+		}
+		delete keyElement;
+		return;
+	}
+	if (keyElement == (*tree)->less)
+	{
+		tree = &(*tree)->less;     //  Go in right subtree
+		tree = &(*tree)->more;     //   and search least element.
+
+		if ((*tree)->less == nullptr)
+		{
+			copyDataFromElement(*tree, keyElement);
+			oldData = *tree;
+			*tree = nullptr;
+			delete oldData;
+			return;
+		}
+		while ((*tree)->less->less != nullptr)
+		{
+			tree = &(*tree)->less;
+		}
+		copyDataFromElement(*tree, keyElement);
+		(*tree)->less = (*tree)->less->more;
+		delete oldData;
+		return;
+	}
+	if (keyElement == (*tree)->more)
+	{
+		tree = &(*tree)->more;     //  Go in right subtree
+		tree = &(*tree)->more;     //   and search least element.
+		if ((*tree)->less == nullptr)
+		{
+			copyDataFromElement(*tree, keyElement);
+			oldData = *tree;
+			*tree = nullptr;
+			delete oldData;
+			return;
+		}
+		while ((*tree)->less->less != nullptr)
+		{
+			tree = &(*tree)->less;
+		}
+		copyDataFromElement(*tree, keyElement);
+		(*tree)->less = (*tree)->less->more;
+		delete oldData;
+		return;
+	}
+}
