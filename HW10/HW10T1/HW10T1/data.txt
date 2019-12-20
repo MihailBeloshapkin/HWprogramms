@@ -1,0 +1,34 @@
+The students of mathematics may wonder where the word "mathematics" comes from. Mathematics is a Greek word, and, by origin or etymologically, it means "something that must be learnt or understood",
+perhaps "acquired knowledge" or "knowledge acquirable by learning" or "general knowledge". The word "mathematics" is a contraction of all these phrases. The celebrated Pythagorean school in ancient
+Greece had both regular and incidental members. The incidental members were called "auditors"; the regular members were named "mathematicians" as a general class and not because they specialized in mathematics;
+for them mathematics was a mental discipline of science learning. What is mathematics in the modern sense of the term, its implications and connotations? There is no neat, simple, general and unique answer 
+to this question. Mathematics as a science, viewed as a whole, is a collection of branches. The largest branch is that which is built on the ordinary whole numbers, fractions, and irrational numbers, or what,
+collectively, is called the real number system. Arithmetic, algebra, study of functions, calculus, differential equations, and various other subjects which follow calculus in a logical order are all developments
+of the real number system. This part of mathematics is termed the mathematics of number. The second branch is geometry consisting of several geometries. Mathematics contains many more divisions. Each branch has
+the same logical structure: it begins with certain concepts, such as the whole numbers or integers in the mathematics of number, and such as point, line and triangle in geometry. These concepts must verify 
+explicitly stated axioms. Some of the axioms of the mathematics of number are the associative, commutative, and distributive properties and the axioms about equalities. Some of the axioms of geometry are that 
+two points determine a line, all right angles are equal, etc. From the concepts and axioms theorems are deduced. Hence, from the standpoint of structure, the concepts, axioms and theorems are the essential 
+components of any compartment of mathematics. We must break down mathematics into separately taught subjects, but this compartmentalization taken as a necessity, must be compensated for as much as possible. 
+Students must see the interrelationships of the various areas and the importance of mathematics for other domains. Knowledge is not additive but an organic whole and mathematics is an inseparable part of that 
+whole. The full significance of mathematics can be seen and taught only in terms of its intimate relationships to other fields of knowledge. If mathematics is isolated from other provinces, it loses importance.
+The basic concepts of the main branches of mathematics are abstractions from experience, implied by their obvious physical counterparts. But it is noteworthy, that many more concepts are introduced which are, 
+in essence, creations of the human mind with or without any help of experience. Irrational numbers, negative numbers and so forth are not wholly abstracted from the physical practice, for the man's mind must 
+create the notion of entirely new types of numbers to which operations such as addition, multiplication, and the like can be applied. The notion of a variable that represents the quantitative values of some 
+changing physical phenomena, such as temperature and time, is also at least one mental step beyond the mere observation of change. The concept of a function, or a relationship between variables, is almost 
+totally a mental creation.The more we study mathematics the more we see that the ideas and conceptions involved become more divorced and remote from experience, and the role played by the mind of the 
+mathematician becomes larger and larger. The gradual introduction of new concepts which more and more depart from forms of experience finds its parallel in geometry and many of the specific geometrical terms 
+are mental creations. As mathematicians nowadays working in any given branch discover new concepts which are less and less drawn from experience and more and more from human mind the development of concepts
+ is progressive and later concepts are built on earlier notions. These facts have unpleasant consequences. Because the more advanced ideas are purely mental creations rather than abstractions from physical 
+experience and because they are defined in terms of prior concepts it is more difficult to understand them and illustrate their meanings even for a specialist in some other province of mathematics. Nevertheless, 
+the current introduction of new concepts in any field enables mathematics to grow rapidly. Indeed, the growth of modern mathematics is, in part, due to the introduction of new concepts and new systems of axioms.
+Axioms constitute the second major component of any branch of mathematics. Up to the XIX century axioms were considered as basic self-evident truths about the concepts involved. We know now that this view ought 
+to be given up. The objective of mathematical activity consists of the theorems deduced from a set of axioms. The amount of information that can be deduced from some sets of axioms is almost incredible. 
+The axioms of number give rise to the results of algebra properties of functions, the theorems of the calculus, the solutions of various types of differential equations. Mathematical theorems must be deductively 
+established and proved. Much of the scientific knowledge is produced by deductive reasoning; new theorems are proved constantly, even in such old subjects as algebra and geometry and the current developments are as important as the older results.
+Growth of mathematics is possible in still another way. Mathematicians are sure now that sets of axioms which have no bearing on the physical world should be explored. Accordingly, mathematicians nowadays 
+investigate algebras and geometries with no immediate applications. There is, however, some disagreement among mathematicians as to the way they answer the question: Do the concepts, axioms, and theorems 
+exist in some objective world and are merely detected by man or are they entirely human creations? In ancient times the axioms and theorems were regarded as necessary truths about the universe already 
+incorporated in the design of the world. Hence each new theorem was a discovery, a disclosure of what already existed. The contrary view holds that mathematics, its concepts, and theorems are created by man. 
+Man distinguishes objects in the physical world and invents numbers and number names to represent one aspect of experience. Axioms are man's generalizations of certain fundamental facts and theorems may very 
+logically follow from the axioms. Mathematics, according to this view-point, is a human creation in every respect. Some mathematicians claim that pure mathematics is the most original creation of the human 
+mind.
