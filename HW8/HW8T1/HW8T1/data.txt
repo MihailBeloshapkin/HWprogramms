@@ -1,0 +1,7 @@
+10 -> stack
+5 -> queue
+20 -> tree
+30 -> list
+40 -> data
+35 -> graph
+45 -> pointer
