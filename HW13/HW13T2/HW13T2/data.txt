@@ -1,0 +1,12 @@
+3 4 / * %
+1 0 0
+1 2 0
+2 3 2
+0 3 2
+
+
+0 - wait for /
+1 - meet / and wait for * or /. If %, go to state 0
+2 - meet * at the beginning of comment
+3 - meet * at the end of comment or in case of * is a part of comment
+ 

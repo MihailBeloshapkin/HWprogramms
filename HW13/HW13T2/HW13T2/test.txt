@@ -1,0 +1,108 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "gfx.h"
+#include <conio.h>
+#include <dos.h>
+#define BR_X 30
+#define BR_Y 30
+#define BR_nx 10
+#define BR_ny 10
+#define BR_w 20
+#define BR_h 10
+int Bricks[BR_nx][BR_ny];
+                                                              /*determine valuable variables*/
+void drawbreak( int nx, int ny )  
+{
+  PutBar(BR_X + nx * BR_w, BR_Y + ny * BR_h, BR_w - 1, BR_h - 1, Bricks[ny][nx]);
+}
+
+int Hit( int x, int y)                  
+{
+  if( x < BR_X || y < BR_Y)
+    return 0;
+  x = (x - BR_X) / BR_w;
+  y = (y - BR_Y) / BR_h;
+  if( x >= BR_nx || y >= BR_ny )
+    return 0;
+  if (Bricks[y][x] == 0)
+    return 0;                                               /*Hit discription*/
+  else
+  {
+    Bricks[y][x]--;
+    drawbreak(x, y);
+    return 1;
+  }
+}
+void main( void )
+{
+  int x = 1, y = 5, sx = 1, i, sy = 1, bw = 50, bx = 50, life = 0, j, f, k;
+  char keys;
+  SetGr();
+  for (i =0; i < BR_ny; i++)
+    for(j = 0;j < BR_nx; j++)
+    {
+      Bricks[i][j] = rand() % 5 + 1;
+      drawbreak(j, i);
+   }
+  for (f = 0; f < 320; f++)
+    PutPixel(f, 0, 4);
+  for (k = 0; k < bw; k++)
+    PutPixel(bx + k, 199, 6);
+  while(!kbhit())
+  {                                                  /*****/
+    delay(10);
+    if(Hit(x, y + sy))
+      sy = -sy;
+    if(Hit(x + sx ,y))
+      sx = -sx;
+    if(Hit(x + sx, y + sy))
+    {
+      sx = -sx;
+      sy = -sy;
+    }
+    PutPixel(x, y, 0);                                   /*put pixel*/
+      x += sx;
+      y += sy;
+    PutPixel(x, y, 10);
+
+    if(x < 1 || x > 317)
+    sx = -sx;
+    if(y < 2 || y > 197)
+    sy = -sy;
+
+
+    for(i = 0; i <= 3; i++)
+    {
+      keys = *(char *)0x417;
+      if((keys & 2) != 0 && bx > 0)
+      {
+        bx--;
+        PutPixel(bx + bw, 199, 0);
+        PutPixel(bx, 199, 7);
+      }
+      if((keys & 1) != 0 && bx + bw < 319)
+      {
+        PutPixel(bx, 199, 0);
+        PutPixel(bx + bw, 199, 7);
+        bx++;
+      }
+    }
+    if(y == 198 && (x > bx + bw  ||  x < bx))
+    {
+      for(f = 0; f < life * 80; f++)
+        PutPixel(f, 0, 0);
+      if(life == 5)
+      {
+        CloseGr();
+        {
+          printf("GAME OVER");
+          getch();
+          break;
+        }
+      }
+      life++;
+    }
+    }
+  getch();
+  CloseGr();
+}
