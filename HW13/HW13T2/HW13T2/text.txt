@@ -1,0 +1,31 @@
+/* Beloshapkin Mikhail, 8 - 3. group A, 15.06.2016 */
+#include <stdio.h>
+#include <math.h>
+
+float square( float a, float b, float c )
+{
+  float p;
+  if (a > 0 && b > 0 && c > 0 && c < a + b && b < a + c && a < b + c)
+  {
+    p = (a + b + c) / 2 ;
+    return sqrt(p * (p - a) * (p - b) * (p - c));    /*count square*/
+  }
+  else
+    return 0;
+}
+
+void main( void )
+{
+  float a, b, c, s;
+
+  printf("a:");
+  scanf("%f", &a);
+  printf("b:");
+  scanf("%f", &b);
+  printf("c:");
+  scanf("%f", &c);
+  square(a, b, c) = s;
+  if (square(a, b, c) == -1)                                       
+    printf("Input right sides");                                   /*Output answer*/
+  printf("%f", square);
+}
