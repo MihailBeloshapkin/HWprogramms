@@ -25,7 +25,6 @@ bool test()
 	FILE* testFile = fopen("data.txt", "r");
 	loadData(&testTree, testFile);
 	fclose(testFile);
-	display(testTree, 0);
 	checkThatBalance(testTree, &isBalanced);
 	if (!isBalanced)
 	{
