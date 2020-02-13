@@ -36,7 +36,7 @@ bool compareArraysOfList(List** firstArray, List** secondArray, int sizeOfArray)
 
 bool test()
 {
-	FILE* testFile = fopen("data.txt", "r");
+	FILE* testFile = fopen("test.txt", "r");
 	int countOfCities = 0;
 	fscanf(testFile, "%i", &countOfCities);
 	int** testGraph = createMatrix(countOfCities);
