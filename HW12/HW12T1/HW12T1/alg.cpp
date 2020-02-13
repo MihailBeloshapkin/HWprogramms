@@ -42,6 +42,7 @@ int searchCoincidence(char* string, char* subString, int stringSize, int subStri
 		{
 			if (indexOfSubString == subStringSize - 1)
 			{
+				delete[] pi;
 				return indexOfString;
 			}
 			indexOfString++;
@@ -59,5 +60,6 @@ int searchCoincidence(char* string, char* subString, int stringSize, int subStri
 			}
 		}
 	}
+	delete[] pi;
 	return -1;
 }
